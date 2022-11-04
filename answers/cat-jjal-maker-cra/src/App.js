@@ -92,10 +92,10 @@ const MainCard = ({ img, onHeartClick, alreadyFavorite }) => {
 };
 
 const App = () => {
-  const CAT1 = "https://cataas.com/cat/60b73094e04e18001194a309/says/react";
-  const CAT2 = "https://cataas.com//cat/5e9970351b7a400011744233/says/inflearn";
+  const CAT1 = "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2";
+  const CAT2 = "https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2";
   const CAT3 =
-    "https://cataas.com/cat/595f280b557291a9750ebf65/says/JavaScript";
+    "https://images.pexels.com/photos/320014/pexels-photo-320014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2";
 
   const [counter, setCounter] = React.useState(() => {
     return jsonLocalStorage.getItem("counter");
